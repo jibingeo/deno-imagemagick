@@ -10,7 +10,8 @@ This is a beta, there's a lot of features missing, but is a starting point
 import {
   initializeImageMagick,
   ImageMagick,
-  MagickImage
+  MagickImage,
+  MagickFormat
 } from "https://deno.land/x/deno_imagemagick/mod.ts"
 
 await initializeImageMagick(); // make sure to initialize first!
